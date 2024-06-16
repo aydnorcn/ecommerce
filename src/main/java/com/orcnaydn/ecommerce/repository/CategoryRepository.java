@@ -1,0 +1,9 @@
+package com.orcnaydn.ecommerce.repository;
+
+import com.orcnaydn.ecommerce.entity.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category,Long> {
+
+    Boolean existsByNameIgnoreCase(String name);
+}
