@@ -100,3 +100,12 @@
 | `PUT`| `/api/stores/{id}`|
 | `DELETE`| `/api/stores/{id}`|
 
+#### Favorite Controller
+
+| Type | Request                        |
+| :-------- |:-------------------------------|
+| `GET` | `/api/favorites/{id}`          | 
+| `GET`| `/api/users/{id}/favorites`    |
+| `POST`| `/api/products/{id}/favorites` |
+| `DELETE`| `/api/favorites/{id}`          |
+| `DELETE`| `/api/products/{id}/favorites` |
